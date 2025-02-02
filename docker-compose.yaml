@@ -24,7 +24,7 @@ services:
   php2:
     image: wernerdweight/php8.3-fpm
     volumes:
-      - ./blog:/var/www/public
+      - ./eshop:/var/www/public
     ports:
       - 9001:9000
 
